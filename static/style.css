@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Set the primary theme color to a professional blue */
+:root {
+    --primary-color: #0d6efd; /* A modern shade of blue */
+    --font-family: 'Inter', sans-serif;
+}
+
+/* General app font and background */
+body {
+    font-family: var(--font-family);
+    background-color: #f0f2f6;
+}
+
+/* Style the primary button */
+.stButton>button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+}
+
+.stButton>button:hover {
+    background-color: #0b5ed7; /* A slightly darker blue for hover */
+    color: white;
+}
+
+/* Custom container for the report/results section */
+.report-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-top: 5px solid var(--primary-color);
+}
+
+/* Style metric labels */
+.st-emotion-cache-1wivap2 {
+    color: #6b7280; /* A soft gray for labels */
+    font-size: 0.9rem;
+}
+
+/* Header styling */
+h1 {
+    font-weight: 700;
+    color: #111827;
+}
+
+h2 {
+    font-weight: 600;
+    color: #1f2937;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-weight: 600;
+    color: var(--primary-color);
+}
